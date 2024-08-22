@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+
+  <!-- jQuery -->
+  <script src="js/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write(decodeURIComponent('%3Cscript src="js/jquery.min.js"%3E%3C/script%3E'));
+  </script>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="css/dx.light.css" />
+  <!-- DevExtreme CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/24.1.3/css/dx.material.blue.light.css" />
+
+  <!-- DevExtreme Scripts -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/dx.all.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+
+  <!-- Scripts -->
+  <script src="Menu/index.js"></script>
+  <script src="Menu/data.js"></script>
+  <script src="js2/data.js"></script> 
+
+  <!-- Scripts BD -->
+  <script src="bd/config.js"></script> 
+  <script src="bd/data.js"></script>
+  <script src="bd/saveData.js"></script>
+  <script src="bd/loadData.js"></script>
+  <!-- <script src="sqltojson.js"></script> -->
+
+  
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body class="dx-viewport">
+  <div class="demo-container">
+    <div class="content">
+      <div class="label"></div>
+      <div id="menu"></div>
+    </div>
+    <div id="BtnSelect" style="display:none;">
+      <div id="billing-info">
+        <label for="billingNumber">Numéro de Facturation:</label>
+        <span id="billingNumber">FR241</span>
+        <label for="totalAmount">Montant total:</label>
+        <span id="totalAmount">0</span>
+    </div>
+      <label for="fournisseurSelect">Fournisseur :</label>
+        <select id="fournisseurSelect">
+
+        </select>
+    </div>
+    <div id="gridContainer"></div>
+    <div id="gridContainer1"></div>
+    
+    <div class="move-button">
+      <button id="facturiseBtn"></button>
+      <button id="defacturiseBtn"></button>
+  </div>
+    <div id="gridContainer2" style="display:none;"></div>
+    <div id="gridContainerSuppliers" style="display:none;"></div> <!-- New Container -->
+  </div>
+  
+  <div id="popup"></div>
+</body>
+</html>
