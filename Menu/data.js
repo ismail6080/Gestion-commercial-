@@ -1,0 +1,1 @@
+const menuData = JSON.parse(localStorage.getItem('menuData')) || [];
