@@ -1,0 +1,78 @@
+#data-grid-demo {
+  min-height: 700px;
+}
+.dx-datagrid-group-panel {
+  display: none;
+}
+.demo-container {
+  display: flex;
+  flex-direction: column;
+}
+.content{
+display: flex;
+flex-direction: row;
+width: 80%;
+
+}
+.label img{
+width: 90px;
+padding: 10%;
+margin-right: 20px;
+}
+#gridContainer, #gridContainer2 {
+  width: 100%;
+  margin-top: 20px;
+  
+}
+.move-button {
+  display: none;/* Les boutons sont cachés par défaut */
+  justify-content: space-around;
+  margin: 10px;
+}
+#BtnSelect {
+display: flex;
+flex-direction: column;
+width: 300px; /* Ajustez la largeur selon vos besoins */
+margin: 20px 0;
+}
+
+#BtnSelect label {
+font-size: 14px;
+font-weight: 600;
+margin-bottom: 5px;
+color: #333;
+}
+
+#BtnSelect select {
+width: 100%;
+padding: 10px;
+font-size: 14px;
+border: 1px solid #ccc;
+border-radius: 4px;
+background-color: #fff;
+transition: border-color 0.2s;
+}
+
+#BtnSelect select:focus {
+border-color: #7ebdf4;
+box-shadow: 0 0 5px rgba(126, 189, 244, 0.5);
+outline: none;
+}
+
+/* Appliquez un style au select lorsqu'il est hover */
+#BtnSelect select:hover {
+border-color: #a7d1f9;
+}
+#billing-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+#billingNumber, #totalAmount {
+  font-size: 16px;
+  color: #4CAF50;
+}
