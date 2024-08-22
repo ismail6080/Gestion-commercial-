@@ -1,0 +1,16 @@
+{
+    "receptions": [
+        { "Id": 1, "ReceptionNumber": "BR24001", "Date": "2024-07-15", "FournisseurId": "fournisseur 3", "Service": "farticle 1","Observation":"obs 0001","Facturation":"Facturisée" },
+        { "Id": 2, "ReceptionNumber": "BR24002", "Date": "2024-07-16", "FournisseurId": "fournisseur 2", "Service": "farticle 0","Observation":"obs 0002","Facturation":"Non Facturisée" },
+        { "Id": 3, "ReceptionNumber": "BR24003", "Date": "2024-07-17", "FournisseurId": "fournisseur 4", "Service": "farticle 2","Observation":"obs 0003","Facturation":"Non Facturisée" }
+    ],
+    "orders": [
+        { "ReceptionId": 1, "CammandeId": "O001", "ArticleId": "article 0", "Quantity": 10, "Price": 50, "Amount": 500 },
+        { "ReceptionId": 1, "CammandeId": "O002", "ArticleId": "article 3", "Quantity": 5, "Price": 100, "Amount": 500 },
+        { "ReceptionId": 2, "CammandeId": "O003", "ArticleId": "article 4", "Quantity": 20, "Price": 25, "Amount": 500 },
+        { "ReceptionId": 2, "CammandeId": "O004", "ArticleId": "article 0", "Quantity": 15, "Price": 30, "Amount": 450 },
+        { "ReceptionId": 3, "CammandeId": "O005", "ArticleId": "article 2", "Quantity": 8, "Price": 60, "Amount": 480 },
+        { "ReceptionId": 3, "CammandeId": "O006", "ArticleId": "article 1", "Quantity": 12, "Price": 40, "Amount": 480 }
+    ]
+  }
+  

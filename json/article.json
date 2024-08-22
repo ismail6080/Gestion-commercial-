@@ -1,0 +1,8 @@
+[
+    { "idart": 1, "Nom_article": "article 0","prix": 601.00, "qstock": 20 , "codef": "farticle 0" },
+    { "idart": 2, "Nom_article": "article 1","prix": 601.00, "qstock": 20 , "codef": "farticle 0" },
+    { "idart": 3, "Nom_article": "article 2","prix": 101.00, "qstock": 20 , "codef": "farticle 1"},
+    { "idart": 4, "Nom_article": "article 3","prix": 101.00, "qstock": 20 , "codef": "farticle 2"},
+    { "idart": 5, "Nom_article": "article 4","prix": 101.00, "qstock": 20 , "codef": "farticle 3"},
+    { "idart": 6, "Nom_article": "article 5","prix": 903.00, "qstock": 20 , "codef": "farticle 4"}
+]

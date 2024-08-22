@@ -1,0 +1,8 @@
+[
+    { "ID": 1, "Nom_complete": "client 0","Téléphone": "+212619886010", "Email": "client0@gmail.com", "Address": "Address 01 rue 00 Ville", "BirthDate": "1964/03/16", "Ville": "Agadir" },
+    { "ID": 2, "Nom_complete": "client 1","Téléphone": "+212689556010", "Email": "client1@gmail.com", "Address": "Address 01 rue 00 Ville", "BirthDate": "1964/03/16", "Ville": "Agadir" },
+    { "ID": 3, "Nom_complete": "client 2","Téléphone": "700561012", "Email": "client2@gmail.com", "Address": "Address 00 rue 01 Ville", "BirthDate": "1964/03/16", "Ville": "Agadir"},
+    { "ID": 4, "Nom_complete": "client 3","Téléphone": "+212689661013", "Email": "client3@gmail.com", "Address": "Address 03 rue 02 Ville", "BirthDate": "1964/03/16", "Ville": "Agadir"},
+    { "ID": 5, "Nom_complete": "client 4","Téléphone": "+212689561014", "Email": "client4@gmail.com", "Address": "Address 03 rue 03 Ville", "BirthDate": "1964/03/16", "Ville": "Agadir"},
+    { "ID": 6, "Nom_complete": "client 5","Téléphone": "+212789549033", "Email": "client5@gmail.com", "Address": "Address 04 rue 04 Ville", "BirthDate": "1964/03/16", "Ville": "Agadir"}
+]
